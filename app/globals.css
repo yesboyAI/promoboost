@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 56px;
+  background: linear-gradient(90deg, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+.langSwitch {
+  margin-bottom: 20px;
+}
+
+.langSwitch button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background: #1e293b;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #a855f7, #ec4899);
+  color: white;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 40px;
+  text-align: left;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
